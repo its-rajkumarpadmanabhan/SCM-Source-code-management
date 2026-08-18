@@ -1,8 +1,9 @@
+'use client';
 import React, { useRef } from 'react';
 import { useFrame } from '@react-three/fiber';
 
 export default function Particles() {
-  const points = useRef<any>();
+  const points = useRef<any>(null);
   
   useFrame(() => {
     if (points.current) {

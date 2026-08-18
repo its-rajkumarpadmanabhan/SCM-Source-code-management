@@ -1,9 +1,10 @@
+'use client';
 import React, { useRef } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import Particles from './Particles';
 
 function Cube() {
-  const mesh = useRef<any>();
+  const mesh = useRef<any>(null);
   useFrame(() => {
     if (mesh.current) {
       mesh.current.rotation.x += 0.01;
