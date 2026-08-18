@@ -83,6 +83,3 @@ The application will be running at `http://localhost:3000`.
 
 We welcome contributions from the community! Whether it's adding new 3D assets, improving the AI prompts, or optimizing the Docker execution engine, please feel free to fork the repository and submit a Pull Request.
 
-## 📝 License
-
-This project is open-source and available under the MIT License.
