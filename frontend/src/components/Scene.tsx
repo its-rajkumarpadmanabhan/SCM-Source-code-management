@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
+import Particles from './Particles';
 
 function Cube() {
   const mesh = useRef<any>();
@@ -23,6 +24,7 @@ export default function Scene() {
       <Canvas>
         <ambientLight intensity={0.5} />
         <directionalLight position={[10, 10, 5]} intensity={1} />
+        <Particles />
         <Cube />
       </Canvas>
     </div>
