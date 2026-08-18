@@ -7,10 +7,10 @@ export default function Header() {
         NEXUS
       </h1>
       <nav>
-        <ul className="flex gap-4">
-          <li>Home</li>
-          <li>Editor</li>
-          <li>Settings</li>
+        <ul className="flex gap-6">
+          <li className="hover:text-cyan-400 transition-colors cursor-pointer tracking-widest text-sm uppercase">Home</li>
+          <li className="hover:text-cyan-400 transition-colors cursor-pointer tracking-widest text-sm uppercase">Editor</li>
+          <li className="hover:text-cyan-400 transition-colors cursor-pointer tracking-widest text-sm uppercase">Settings</li>
         </ul>
       </nav>
     </header>
