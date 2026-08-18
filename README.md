@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://img.shields.io/badge/Status-Active-success.svg" alt="Status">
-  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
+
   <img src="https://img.shields.io/badge/UI-Futuristic-ff69b4.svg" alt="UI">
   <h1>🌌 NEXUS: Decentralized Code & Execution Platform</h1>
   <p>A next-generation open-source alternative to GitHub & Replit featuring a futuristic 3D interface, built-in AI assistance, and secure remote execution.</p>
