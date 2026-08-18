@@ -11,16 +11,18 @@ function Cube() {
   });
   return (
     <mesh ref={mesh}>
-      <boxGeometry args={[1, 1, 1]} />
-      <meshStandardMaterial color="hotpink" />
+      <boxGeometry args={[2, 2, 2]} />
+      <meshStandardMaterial color="#00ffcc" wireframe />
     </mesh>
   );
 }
 
 export default function Scene() {
   return (
-    <div className="absolute inset-0 -z-10">
+    <div className="absolute inset-0 -z-10 bg-black">
       <Canvas>
+        <ambientLight intensity={0.5} />
+        <directionalLight position={[10, 10, 5]} intensity={1} />
         <Cube />
       </Canvas>
     </div>
